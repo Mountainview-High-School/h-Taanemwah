@@ -22,4 +22,4 @@ select * from Class WHERE room_id = 43;
 select c.teacher_id, c.room_id from class c
 inner join Teacher t
 on c.teacher_id = t.teacher_id
-WHERE c.room_id in (44, 43);, 43);
+WHERE c.room_id in (44, 43);
